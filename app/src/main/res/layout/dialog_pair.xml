@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="8dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:text="在目标机「无线调试」里点「使用配对码配对设备」，弹窗会显示 IP、端口和 6 位配对码，填到下面。"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="配对 IP"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etPairIp"
+        style="@style/Widget.Wadb.Input"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="192.168.1.8"
+        android:inputType="textUri"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="配对端口"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etPairPort"
+        style="@style/Widget.Wadb.Input"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="如 37219"
+        android:inputType="number"
+        android:maxLength="5"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="6 位配对码"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etPairCode"
+        style="@style/Widget.Wadb.Input"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="如 042915"
+        android:inputType="number"
+        android:maxLength="6"
+        android:singleLine="true" />
+
+</LinearLayout>

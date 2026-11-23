@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0A0E13</color>
+    <color name="card">#111821</color>
+    <color name="card_stroke">#1C2530</color>
+    <color name="input_bg">#0C131A</color>
+    <color name="input_stroke">#22303F</color>
+    <color name="console_bg">#070B10</color>
+    <color name="console_stroke">#19222D</color>
+
+    <color name="text_primary">#E6EDF5</color>
+    <color name="text_secondary">#8A94A6</color>
+    <color name="text_hint">#5B6779</color>
+    <color name="text_console">#C9D6E4</color>
+
+    <color name="accent">#35E0A1</color>
+    <color name="accent_dim">#1F8F68</color>
+    <color name="accent_text">#04110C</color>
+    <color name="chip_bg">#14202B</color>
+    <color name="chip_stroke">#22323F</color>
+    <color name="chip_text">#9FE8C8</color>
+
+    <color name="btn_text">#04110C</color>
+    <color name="ghost_bg">#131C26</color>
+    <color name="ghost_stroke">#2A3A4A</color>
+    <color name="ghost_text">#CFE0F0</color>
+
+    <color name="warn">#FFB86B</color>
+    <color name="danger">#FF7B72</color>
+</resources>
