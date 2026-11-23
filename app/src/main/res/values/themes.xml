@@ -52,13 +52,13 @@
         <item name="android:minHeight">44dp</item>
     </style>
 
-    <style name="Widget.Wadb.SectionTitle">
+    <style name="Widget.Wadb.SectionTitle" parent="">
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Widget.Wadb.HelpText">
+    <style name="Widget.Wadb.HelpText" parent="">
         <item name="android:textColor">@color/text_secondary</item>
         <item name="android:textSize">12sp</item>
         <item name="android:lineSpacingExtra">3dp</item>
